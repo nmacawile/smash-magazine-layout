@@ -29,7 +29,7 @@ a {
 
 .main-navbar a {
   text-decoration: none;
-  color: #aaa;
+  color: #ccc;
 }
 
 .main-navbar ul {
@@ -63,6 +63,7 @@ a {
 .nav-menu-item {
   font-size: calc(.8em + .6vw);
   margin: 0;
+  background-color: #aaa;
 }
 
 .nav-menu-caption {
@@ -70,6 +71,7 @@ a {
   font-family: 'IM Fell Double Pica', serif;
   white-space: nowrap;
   margin: .2em;
+  background-color: #aaa;
 }
 
 .search-box {
@@ -83,9 +85,9 @@ a {
   white-space: nowrap;
   border-radius: .4em;
   padding: .6em;
+  background-color: #eee;
   color: #ccc;
-  background: #333;
-  border: 2px solid #ccc;
+  border: 2px solid #333;
 }
 
 .search-button:after {
@@ -105,13 +107,13 @@ a {
   text-align: center;
 
   width: 100%;
-  color: #000;
+  color: #fff;
   box-sizing: border-box;
   padding: .3em;
 }
 
 .featured-articles-heading span {
-  background-color: #fff;
+  background-color: #ddd;
   padding: .3em;
 }
 
@@ -130,6 +132,10 @@ a {
 .featured-articles article:nth-of-type(2),
 .featured-articles article:nth-of-type(4) {
   background: #444;
+}
+
+.author-info {
+  margin-left: 1rem;
 }
 
 .author-image {
@@ -160,6 +166,7 @@ a {
   font-size: calc(18px + .25vw);
 
   color: #ccc;
+  background-color: #ccc;
   padding: 10px;
   display: inline-block;
 
@@ -180,8 +187,12 @@ a {
   height: 100%;
 }
 
+.article-title a {
+  background-color: #eee;
+}
+
 .membership-notification {
-  color: #ddd;
+  color: #bbb;
   font-family: serif;
   padding: 2em 5em;
 }
@@ -217,16 +228,20 @@ a {
 
 }
 
-.membership-notification-details button {
+.membership-notification-details-button {
   font-size: 1.2em;
   font-weight: 700;
   padding: 1em;
 
   border-radius: .5em;
 
-  color: #111;
+  color: #eee;
   background: #fff;
   border: 0;
+}
+
+.membership-highlights {
+  background-color: #ddd;
 }
 
 /** MEDIA QUERIES **/
