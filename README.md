@@ -1,5 +1,5 @@
 # PROJECT: DESIGN TEARDOWN
-A grayscale heat map version of Smashing Magazine's layout. The goal for this exercise is to start training the student to think in terms of visual hierarchy, typography and design principles.
+A grayscale heat map version of Smashing Magazine's layout. The goal for this exercise is to start training the student to think in terms of visual hierarchy, typography and design principles. In the greyscale layout linked below, the more conspicuous elements are made lighter, while those that aren't as noticeable are made darker.
 
 - [Grayscale map preview](https://nmacawile.github.io/smash-magazine-layout)
 
